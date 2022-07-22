@@ -1,0 +1,65 @@
+
+
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+
+}
+
+.img{
+width:300px;
+height:300px;
+margin:30px;
+object-fit:cover;
+transition: all 500ms ease-out;
+
+
+}
+.img:hover{
+
+box-shadow: 20px 20px 20px 20px silver;
+
+}
+
+#img2{
+object-fit: contain;
+display:flex;
+margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+
+}
+
+
+textarea.form-control {
+    width:500px;
+    height:50px;
+    margin-bottom:15px;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+
+}
+.mb-3{
+
+ display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+    flex-direction:column;
+    margin-top:50px;
+}
+
+.title{
+color:white;
+font-style: italic;
+padding-left:40px;
+}
+#path{
+color:white;
+margin-right:50px;
+margin-top:20px;
+}
+
